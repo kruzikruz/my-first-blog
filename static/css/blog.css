@@ -1,0 +1,52 @@
+
+.page-header {
+    background-image: url("http://static.tumblr.com/fca4f5d39988af51f16eeb83749d8ca5/fqzbkjt/rn6nsl4o9/tumblr_static_53ba6q1lldogc4owwk8soc4s8_2048_v2.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: 100% 340px;
+    margin-top: 0;
+    padding: 100px 900px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+.content {
+    position: center;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+}
+
+.date {
+    float: right;
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h1 a, .post h1 a:visited {
+    color: #000000;
+}

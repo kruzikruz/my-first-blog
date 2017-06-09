@@ -1,0 +1,22 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <title>BRUDNA GADKA</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    </head>
+    <body>
+    <div class="page-header">
+   <img src="http://static.tumblr.com/fca4f5d39988af51f16eeb83749d8ca5/fqzbkjt/rn6nsl4o9/tumblr_static_53ba6q1lldogc4owwk8soc4s8_2048_v2.jpg" alt="HTML5 Icon" 	 style="width:128px;height:128px;">
+    </div>
+    <div class="content container">
+        <div class="row">
+            <div class="col-md-8">
+            {% block content %}
+            {% endblock %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
